@@ -1,0 +1,31 @@
+{
+  "name": "connection",
+  "version": "0.0.1",
+  "description": "Simple access to the sbb timetable service",
+  "license": "MIT",
+  "repository": "fanat98/cerebro-connection",
+  "author": {
+    "name": "Aslam Idrisov",
+    "email": "aslam@gmalsa.ch"
+  },
+  "dependencies": {
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.16",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "0.0.25"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "cerebro",
+    "cerebro-plugin"
+  ],
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test",
+    "clear": "cerebro-scripts clear",
+    "prepublish": "yarn clear && yarn build"
+  }
+}

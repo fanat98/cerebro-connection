@@ -1,0 +1,10 @@
+td {
+    padding: 18px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+th {
+    padding: 8px;
+}

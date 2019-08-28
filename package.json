@@ -1,5 +1,5 @@
 {
-  "name": "connection",
+  "name": "cerebro-connection",
   "version": "0.0.1",
   "description": "Simple access to the sbb timetable service",
   "license": "MIT",

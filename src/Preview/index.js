@@ -17,8 +17,8 @@ export default class Preview extends Component {
                 </tr>
             </thead>
                 <tbody>
-                        {connects.map(connect => (
-                        <tr>
+                        {connects.map((connect,i) => (
+                        <tr key={i}> 
                             <td>
                                 {connect.from.location.name}<br/>
                                 {connect.to.location.name}

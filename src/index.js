@@ -16,10 +16,9 @@ export const fn = ({ term, display }) => {
     if (err) {return console.log(err); }
   display({
     icon,
-    title: `You've entered ${connections}`,
+    title: `Connection ${connections}`,
     getPreview: () => <Preview  result={res.body}/>
   })
-  console.log(res.body);
   });
   }
 }

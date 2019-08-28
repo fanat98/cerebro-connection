@@ -18,6 +18,10 @@
   },
   "main": "dist/index.js",
   "keywords": [
+    "connection",
+    "sbb",
+    "timetable",
+    "find",
     "cerebro",
     "cerebro-plugin"
   ],

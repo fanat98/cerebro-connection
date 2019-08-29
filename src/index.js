@@ -10,7 +10,7 @@ export const fn = ({ term, display }) => {
   let locations = connections.split(['to']);
   const request = require('request');
   
-  let url = `http://transport.opendata.ch/v1/connections?from=${locations[0]}&to=${locations[1]}`
+  let url = `https://transport.opendata.ch/v1/connections?from=${locations[0]}&to=${locations[1]}`
 
   request(url, { json: true }, (err, res, body) => {
     if (err) {return console.log(err); }
